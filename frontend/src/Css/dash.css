@@ -24,7 +24,7 @@ h5{
     height: 86%;
     position: absolute;
     border-radius: 4px;
-    box-shadow: 0 4px 8px 0 rgba(110, 110, 110, 0.582), 0 6px 20px 0 rgba(102, 102, 102, 0.561);
+    border:1.6px solid rgb(195, 195, 195);
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);  
@@ -49,6 +49,7 @@ h5{
 
 #zones-container h3{
     position: relative;
+    color: #fff;
     left: 2%;
 }
 
@@ -64,6 +65,7 @@ h5{
     align-content: center;
     justify-content: center;
     margin-left: 2%;
+    font-size: 0.8vw;
     position: relative;
     left: 63%;
     top: -13%;    
@@ -84,4 +86,36 @@ h5{
     width: 37%;
     height: 93%;
     
+}
+.average-stats{
+    position: relative;
+    width: 17%;
+    height: 40%;
+    border:1.6px solid rgb(195, 195, 195);
+}
+.average-stats h1{
+    color: #fff;
+    font-size: medium;
+    position: relative;
+    text-align: center;
+}
+#average-temp{
+    position: absolute;
+    top:57%;
+    left: 1%;
+    border-radius: 4px;
+}
+
+#average-humidity{
+    position: absolute;
+    top: 57%;
+    left: 44%;
+    border-radius: 4px;
+}
+
+#average-nutrient{
+    position: absolute;
+    top:57%;
+    left: 23%;
+    border-radius: 4px;
 }

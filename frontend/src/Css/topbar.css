@@ -20,8 +20,8 @@
 }
 #profile-section-topbar h5{
     color: #fff;
-    position: relative;
-    top: -68%;
+    position: absolute;
+    top: -10%;
     left: 4%;
 }
 #profile-section-topbar img{
