@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class AverageTemp extends Component {
+export default class AverageHumidity extends Component {
     render() {
         return (
-            <div id = "average-tempature">
+            <div>
                 
             </div>
         )
