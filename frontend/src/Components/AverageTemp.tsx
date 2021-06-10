@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class SideSnapShot extends Component {
+export default class AverageTemp extends Component {
     render() {
         return (
-            <div id = "side-container">
+            <div>
                 
             </div>
         )
