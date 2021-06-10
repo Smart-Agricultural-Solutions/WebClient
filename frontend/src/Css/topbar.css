@@ -1,0 +1,29 @@
+
+#topbar{
+    width: 99%;
+    height: 10%;
+    position: absolute;
+    background-color: #5AAB61;
+}
+#logo{
+    width: 4%;
+    border-radius: 12px;
+    position: relative;
+    top :8%;
+    left: 1%;
+}
+#profile-section-topbar{
+    position: relative;
+    top: -140%;
+    left: 84%;
+}
+#profile-section-topbar h5{
+    color: #fff;
+    position: relative;
+    top: -62%;
+    left: 4%;
+}
+#profile-section-topbar img{
+width: 60px;
+border-radius: 50%;
+}

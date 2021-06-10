@@ -16,24 +16,38 @@ h5{
 }
 
 #dash-wrapper{
-    width: 95%;
-    height: 95%;
+    width: 97%;
+    height: 85%;
     position: absolute;
-    
+    border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(110, 110, 110, 0.582), 0 6px 20px 0 rgba(102, 102, 102, 0.561);
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
    
 }
 
+
+#heading-of-dash{
+    position: relative;
+    top: -72%;
+    left: 6%;
+    color: #fff;
+    }
 #zones-container{
     position: relative;
     top: 2%;
-    
-    border:1px solid rgb(195, 195, 195);
-    width: 50%;
-    height: 50%;
+    margin-left: 1%;
+    border:1.6px solid rgb(195, 195, 195);
+
+    border-radius:4px;
+    width: 60%;
+    height: 45%;
+}
+#zones-container h3{
+    position: relative;
+    left: 2%;
+
 }
 
 #zones-container button{
@@ -50,7 +64,10 @@ h5{
     margin-left: 2%;
     position: relative;
     left: 63%;
-    top: -9%;    
-    padding-bottom: 2%;
+    top: -13%;    
+    padding-bottom: 3%;
     padding-top: 2%;
+}
+#zones-headers{
+    font-size: 1.4em;
 }

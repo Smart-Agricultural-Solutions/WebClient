@@ -4,7 +4,7 @@ export default class Zones extends Component {
     render() {
         return (
             <div id = "zones-container">
-                <h3>Zones</h3>
+                <h3 id = "zones-headers">Zones</h3>
                 <button>Add Zone</button>
                 <button>Edit Zones</button>
                 

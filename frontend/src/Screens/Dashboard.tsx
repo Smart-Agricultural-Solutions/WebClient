@@ -6,7 +6,7 @@ export default class Dashboard extends Component {
     render() {
         return (
             <div id=  "dash-wrapper">
-                <h2>Smart Argricultural Solutions</h2>
+                
                 <Zones></Zones>
             </div>
         )
