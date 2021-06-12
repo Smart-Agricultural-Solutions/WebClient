@@ -28,10 +28,12 @@
     position: relative;
     left: 80%;
     top: -12%;
+    font-size: 1vw;
 }
 #layout-wrapper h2{
     position: relative;
     left: 2%;
+    font-size: 1.5vw;
     
 }
 #layout-wrapper img{

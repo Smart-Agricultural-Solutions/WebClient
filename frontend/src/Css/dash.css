@@ -55,6 +55,7 @@ h5{
 #zones-container img{
     left: -15%;
     position: relative;
+    width: 40%;
     top: -10%;
 }
 #zones-placeholder-text{
@@ -62,6 +63,7 @@ h5{
     position: relative;
     left: 27%;
     top: -10%;
+    font-size: 1.6vw;
 }
 #zones-container button{
     border: none;
@@ -72,13 +74,12 @@ h5{
     border-radius: 12px;
     background-color: rgba(76,81,191);
     text-align: center;
-    align-content: center;
-    justify-content: center;
-    margin-left: 2%;
+
+    margin-left: 1%;
     font-size: 0.8vw;
     position: relative;
     left: 63%;
-    top: -63%;    
+    top: -14vw;    
     padding-bottom: 3%;
     padding-top: 2%;
 }
@@ -99,18 +100,18 @@ h5{
 .average-stats{
     position: relative;
     width: 15%;
-    height: 30%;
+    height:25vh;
     background-color: rgba(76,81,191);
 
 }
 .average-stats img{
-    width: 45%;
+    width: 42%;
     position: relative;
     left: 27%;
 }
 .average-stats h1{
     color: #fff;
-    font-size: medium;
+    font-size: 0.8vw;
     position: relative;
     text-align: center;
 }
@@ -132,6 +133,7 @@ h5{
     position: relative;
     left: 42%;
     top: -23%;
+    font-size: 2.9vw;
 }
 
 #average-humidity{
