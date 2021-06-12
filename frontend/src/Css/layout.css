@@ -1,0 +1,42 @@
+#layout-wrapper{
+    border:1.6px solid rgb(195, 195, 195);
+    border-radius: 4px;
+    width: 33%;
+    
+    height: 50%;
+    position: relative;
+    top: -144.2%;
+    left: 64%;
+}
+#layout-wrapper button{
+    background-color: rgba(76,81,191);
+    width: 10%;
+    height: 10%;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 4px;
+    position: relative;
+    top: -70%;
+    left: -7%;
+}
+
+#layout-wrapper h3,h2{
+    color: #fff;
+}
+#layout-wrapper h3{
+    position: relative;
+    left: 80%;
+    top: -12%;
+}
+#layout-wrapper h2{
+    position: relative;
+    left: 2%;
+    
+}
+#layout-wrapper img{
+    width: 90%;
+    position: relative;
+    top: -10%;
+    left: 5%;
+}

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import placeholder from '../Img/placeholdermap.jpg';
+import "../Css/layout.css";
+
 export default class GreenHouseLayout extends Component {
     render() {
         return (

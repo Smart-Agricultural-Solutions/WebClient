@@ -52,7 +52,17 @@ h5{
     color: #fff;
     left: 2%;
 }
-
+#zones-container img{
+    left: -15%;
+    position: relative;
+    top: -10%;
+}
+#zones-placeholder-text{
+    color: #555;
+    position: relative;
+    left: 27%;
+    top: -10%;
+}
 #zones-container button{
     border: none;
     width: 15%;
@@ -60,7 +70,7 @@ h5{
     color: #fff;
     font-weight: bold;
     border-radius: 12px;
-    background-color: #5AAB61;
+    background-color: rgba(76,81,191);
     text-align: center;
     align-content: center;
     justify-content: center;
@@ -68,7 +78,7 @@ h5{
     font-size: 0.8vw;
     position: relative;
     left: 63%;
-    top: -13%;    
+    top: -63%;    
     padding-bottom: 3%;
     padding-top: 2%;
 }
@@ -80,7 +90,6 @@ h5{
     top:-51.25%;
     left: 61%;
     margin-left: 1%;
-    border:1.6px solid rgb(195, 195, 195);
 
     border-radius:4px;
     width: 37%;
@@ -89,9 +98,10 @@ h5{
 }
 .average-stats{
     position: relative;
-    width: 17%;
-    height: 40%;
-    border:1.6px solid rgb(195, 195, 195);
+    width: 15%;
+    height: 30%;
+    background-color: rgba(76,81,191);
+
 }
 .average-stats h1{
     color: #fff;
@@ -99,11 +109,24 @@ h5{
     position: relative;
     text-align: center;
 }
+.average-stats h2{
+    font-size: 3em;
+}
+.average-stats:hover{
+    opacity: 0.5;
+}
 #average-temp{
     position: absolute;
-    top:57%;
-    left: 1%;
+    top:62%;
+    left: 3%;
     border-radius: 4px;
+
+}
+
+#average-temp h2{
+    position: relative;
+    left: 42%;
+    top: -23%;
 }
 
 #average-humidity{
@@ -116,6 +139,11 @@ h5{
 #average-nutrient{
     position: absolute;
     top:57%;
-    left: 23%;
+    left: 25%;
     border-radius: 4px;
+}
+#average-temp img{
+    width: 45%;
+    position: relative;
+    left: 27%;
 }
