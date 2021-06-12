@@ -103,6 +103,11 @@ h5{
     background-color: rgba(76,81,191);
 
 }
+.average-stats img{
+    width: 45%;
+    position: relative;
+    left: 27%;
+}
 .average-stats h1{
     color: #fff;
     font-size: medium;
@@ -123,7 +128,7 @@ h5{
 
 }
 
-#average-temp h2{
+.average-stats h2{
     position: relative;
     left: 42%;
     top: -23%;
@@ -131,19 +136,24 @@ h5{
 
 #average-humidity{
     position: absolute;
-    top: 57%;
+    top: 62%;
     left: 44%;
     border-radius: 4px;
 }
 
 #average-nutrient{
     position: absolute;
-    top:57%;
-    left: 25%;
+    top:62%;
+    left: 24%;
     border-radius: 4px;
 }
-#average-temp img{
-    width: 45%;
+#average-humidity img{
+    width: 30%;
     position: relative;
-    left: 27%;
+    left: 38%;
+}
+#average-humidity h2{
+    top: -11%;
+    position: relative;
+
 }
