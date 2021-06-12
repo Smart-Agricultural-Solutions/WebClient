@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import AverageHumidity from '../Components/AverageHumidity';
 import AverageTemp from '../Components/AverageTemp';
+import AddZonePopup from '../Components/AddZonePopup';
 import GreenHouseLayout from '../Components/GreenHouseLayout';
 import NutrientTemp from '../Components/NutrientTemp';
 import SideSnapShot from '../Components/SideSnapShot';
@@ -17,6 +18,7 @@ export default class Dashboard extends Component {
                 <AverageTemp/>
                 <NutrientTemp/>
                 <GreenHouseLayout/>
+                <AddZonePopup/>
             </div>
         )
     }
